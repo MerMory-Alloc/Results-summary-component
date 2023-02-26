@@ -4,7 +4,7 @@ This is a solution to the [Results summary component challenge on Frontend Mento
 
 ### Links
 
-- Live Site URL: [Results summary component](https://your-live-site-url.com)
+- Live Site URL: [Results summary component](https://mermory-alloc.github.io/Results-summary-component/src/)
 
 ## Challenge
 This is a simple project that I created to learn Tailwind CSS and how to use the Fetch API in JavaScript. Usually, I start with desktop designing, but this time I followed the mobile-first approach, which made me realize that I was doing it the wrong way.
