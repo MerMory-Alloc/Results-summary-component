@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="/dist/output.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="../assets/images/favicon-32x32.png">
+  <title>Frontend Mentor | Results summary component</title>
+</head>
+<body class="md:grid md:place-content-center md:h-screen">
+
+  <h1 class="hidden w-0">
+    Result Display
+  </h1>
+
+  <div class="cont md:grid grid-cols-2 md:max-w-screen-md md:shadow-2xl md:rounded-3xl">
+    <div class="left flex flex-col bg-gradient-to-b from-[#7857FF] to-[#2E2BE9] rounded-b-3xl md:rounded-3xl px-16 py-7">
+      <h2 class="yr_result_title text-center text-blue-200 text-xl">Your Result</h2>
+      <div class="result_container flex flex-col justify-center items-center bg-gradient-to-b from-[#4e21ca] inline-block  mx-auto my-7 w-40 h-40 rounded-full ">
+        <span class="result text-center text-white text-6xl font-extrabold ">76</span>
+        <span class="out_of text-center text-slate-400 text-base">of 100</span>
+      </div>
+
+      <h3 class="feedback text-center text-white text-3xl mb-4 font-bold">Great</h3>
+      <p class="info text-center text-blue-200 text-lg">  You scored higher than 65% of the people who have taken these tests.</p>
+
+    </div>
+
+    <div class="right py-6 px-8 text-xl font-bold text-[#394460] md:rounded-r-3xl">
+      <h2 class="sumry_title mb-6 text-2xl">Summary</h2>
+
+      <div class="theme mb-4 p-4 flex bg-red-50 rounded-lg">
+        <img alt="" class="icon mr-4"/>
+        <span class="theme_title text-red-400"></span>
+        <span class="theme_result grow text-right"><span class="note"></span>  <span class="font-normal text-gray-500">/ 100</span> </span>
+      </div>
+
+      <div class="theme mb-4 p-4 flex bg-yellow-50 rounded-lg">
+        <img alt=""  class="icon mr-4"/>
+        <span class="theme_title text-amber-400"></span>
+        <span class="theme_result grow text-right"><span class="note"></span> <span class="font-normal text-gray-500">/ 100</span></span>
+      </div>
+
+      <div class="theme mb-4 p-4 flex bg-green-50 rounded-lg">
+        <img alt=""  class="icon mr-4"/>
+        <span class="theme_title text-emerald-500"></span>
+        <span class="theme_result grow text-right"><span class="note"></span> <span class="font-normal text-gray-500">/ 100</span></span>
+      </div>
+
+      <div class="theme mb-4 p-4 flex bg-violet-50 rounded-lg">
+        <img alt="" class="icon mr-4"/>
+        <span class="theme_title text-indigo-500"></span>
+        <span class="theme_result grow text-right "><span class="note"></span> <span class="font-normal text-gray-500">/ 100</span></span>
+      </div>
+
+      <button type="button" class="btn bg-[#394460] text-white w-full text-center rounded-full p-4 mb-4 mt-2 hover:bg-gradient-to-b from-[#7857FF] to-[#2E2BE9]">Continue</button>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+
+  <div class="attribution text-center mt-4">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" class="underline text-blue-600">Frontend Mentor</a>.
+    Coded by <a href="https://twitter.com/mbhmma" class="underline text-blue-600">MerMory</a>.
+  </div>
+</body>
+</html>
